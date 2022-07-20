@@ -7,6 +7,11 @@ import simpleDownArrowGraphic from '../../../../assets/simpledownarrowicon.png';
 import refreshIconGraphic from '../../../../assets/refreshicon.png';
 import threeDotIconGraphic from '../../../../assets/threedoticon.png';
 
+import leftArrowIconGraphic from '../../../../assets/leftarrowpageicon.png';
+import rightArrowIconGraphic from '../../../../assets/rightarrowpageicon.png';
+import MiddleInboxHorizBarComp from './MiddleInboxHorizBarComp/MiddleInboxHorizBarComp';
+import LowerInboxListComp from './LowerInboxListComp/LowerInboxListComp';
+
 
 const CenterInboxColumnComp = (props) => {
 
@@ -27,9 +32,21 @@ const CenterInboxColumnComp = (props) => {
                 </div>
             </div>
             <div className={styles.rightSideIconContainer}>
-
+                <span style={{fontSize: '0.9rem'}}>
+                    1-50 of 20,287
+                </span>
+                <div className={styles.rightSideArrowContainer}>
+                    <img className={styles.arrowIconStyle} src={leftArrowIconGraphic}>
+                    </img>
+                </div>
+                <div className={styles.rightSideArrowContainer}>
+                    <img style={{height: '1.1rem'}} className={styles.arrowIconStyle} src={rightArrowIconGraphic}>
+                    </img>
+                </div>
             </div>
         </div>
+        <MiddleInboxHorizBarComp></MiddleInboxHorizBarComp>
+        <LowerInboxListComp></LowerInboxListComp>
     </div>)
 }
 

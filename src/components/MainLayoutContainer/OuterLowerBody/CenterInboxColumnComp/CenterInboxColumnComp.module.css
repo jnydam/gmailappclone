@@ -3,6 +3,7 @@
     height: 100%;
     flex: 5;
     background-color: orange;
+    flex-direction: column;
 }
 
 .innerUpperRefreshCenterInboxRowContainer {
@@ -24,7 +25,9 @@
     display: flex;
     height: 100%;
     background-color: lightgrey;
-    width: 10rem;
+    width: 20rem;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .mainImageContainer {
@@ -57,8 +60,17 @@
     height: 0.8rem;
 }
 
-/* .mainImageContainer {
+.rightSideArrowContainer {
     display: flex;
-    margin-left: 0.5rem;
-    height: 1.7rem;
-} */
+    height: 100%;
+    width: 3rem;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrowIconStyle {
+    display: flex;
+    height: 1.2rem;
+}

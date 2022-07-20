@@ -1,3 +1,5 @@
 .middleInboxHorizBarCompContainer {
     display: flex;
+    height: 3.6rem;
+    background-color: lightpink;
 }

@@ -1,0 +1,41 @@
+.middleInboxDividerHorizCompContainer {
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 17rem;
+    background-color: lightsalmon;
+    overflow: hidden;
+    border-right: 1px solid black;
+    align-items: center;
+}
+
+.lowerColorBanner {
+    display: flex;
+    position: absolute;
+    height: 1rem;
+    z-index: 1;
+    bottom: 0;
+    transform: translateY(0.8rem);
+    width: 92%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.4rem;
+    left: 0;
+    right: 0;
+    align-self: center;
+}
+
+.iconImageContainer {
+    display: flex;
+    height: 100%;
+    width: 4rem;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+.localIconStyle {
+    display: flex;
+    height: 1.8rem;
+}

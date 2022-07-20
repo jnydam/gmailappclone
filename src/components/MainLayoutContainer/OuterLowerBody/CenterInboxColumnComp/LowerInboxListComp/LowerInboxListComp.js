@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './LowerInboxListComp.module.css';
+
 const LowerInboxListComp = (props) => {
 
     return (<div className={styles.lowerInboxListCompContainer}>
