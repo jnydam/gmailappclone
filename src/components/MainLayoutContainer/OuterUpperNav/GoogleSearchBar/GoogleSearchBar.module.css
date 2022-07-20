@@ -1,5 +1,40 @@
 .googleSearchBarContainer {
     display: flex;
+    height: 75%;
+    width: 40rem;
+    /* border-style: none;
+    outline-style: none; */
+    border-radius: 0.3rem;
+    margin-left: 3rem;
+    background-color: white;
+    box-shadow: 0px 0px 3px grey;
+    align-items: center;
+}
+
+.searchIconImageContainer {
+    display: flex;
     height: 100%;
-    width: 9rem;
+    width: 4rem;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterIconImageContainer {
+    display: flex;
+    height: 100%;
+    width: 3rem;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchMailInputStyle {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: violet;
+    border-style: none;
+    font-size: 1rem;
+    outline-style: none;
 }
