@@ -1,0 +1,6 @@
+.meetSectionColumnCompContainer {
+    display: flex;
+    width: 100%;
+    background-color: lightpink;
+    flex: 2;
+}

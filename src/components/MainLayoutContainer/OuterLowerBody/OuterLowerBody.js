@@ -1,11 +1,16 @@
 import React from 'react';
+import CenterInboxColumnComp from './CenterInboxColumnComp/CenterInboxColumnComp';
+import LeftMenuColumnComp from './LeftMenuColumnComp/LeftMenuColumnComp';
 
 import styles from './OuterLowerBody.module.css';
+import RightMenuColumnComp from './RightMenuColumnComp/RightMenuColumnComp';
 
 const OuterLowerBody = (props) => {
 
     return (<div className={styles.outerLowerBodyCompContainer}> 
-        <span>This is the outer lower body container</span>
+        <LeftMenuColumnComp></LeftMenuColumnComp>
+        <CenterInboxColumnComp></CenterInboxColumnComp>
+        <RightMenuColumnComp></RightMenuColumnComp>
     </div>)
 }
 

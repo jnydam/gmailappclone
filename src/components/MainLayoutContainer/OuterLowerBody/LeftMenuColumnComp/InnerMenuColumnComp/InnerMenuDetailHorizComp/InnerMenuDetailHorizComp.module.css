@@ -1,0 +1,27 @@
+.innerMenuDetailHorizCompContainer {
+    display: flex;
+    height: 2.2rem;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+.roundedInnerDataContainer {
+    display: flex;
+    height: 100%;
+    width: 95%;
+    background-color: red;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.iconContainer {
+    display: flex;
+    height: 100%;
+    width: 2.4rem;
+    margin-left: 1rem;
+    background-color: brown;
+}
+
+.textInfoContainer {
+    display: flex;
+}

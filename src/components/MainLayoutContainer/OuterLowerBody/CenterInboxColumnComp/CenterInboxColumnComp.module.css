@@ -1,5 +1,6 @@
 .centerInboxColumnCompContainer {
     display: flex;
     height: 100%;
-    width: 100%;
+    flex: 5;
+    background-color: orange;
 }

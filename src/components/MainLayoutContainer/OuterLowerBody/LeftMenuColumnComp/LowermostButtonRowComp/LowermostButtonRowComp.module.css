@@ -1,0 +1,5 @@
+.lowermostButtonRowCompContainer {
+    display: flex;
+    width: 100%;
+    flex: 0.7;
+}

@@ -1,9 +1,14 @@
 import React from 'react';
 
+import styles from './InnerMenuColumnComp.module.css';
+import InnerMenuDetailHorizComp from './InnerMenuDetailHorizComp/InnerMenuDetailHorizComp';
+
 const InnerMenuColumnComp = (props) => {
 
     return (<div className={styles.innerMenuColumnComp}>
-        <span>This is the inner menyu column comp</span>
+        <div className={styles.expandableInnerMenuColumnContainer}>
+            <InnerMenuDetailHorizComp></InnerMenuDetailHorizComp>
+        </div>
     </div>)
 }
 
