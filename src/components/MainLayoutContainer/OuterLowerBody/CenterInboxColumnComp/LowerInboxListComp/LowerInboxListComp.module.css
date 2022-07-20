@@ -1,4 +1,8 @@
 .lowerInboxListCompContainer {
     display: flex;
     z-index: 2;
+    flex-direction: column;
+    height: 100%;
+    background-color: lightgray;
+
 }

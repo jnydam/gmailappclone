@@ -1,3 +1,6 @@
 .inboxHorizDetailCompContainer {
     display: flex;
+    height: 2rem;
+    width: 100%;
+    background-color: antiquewhite;
 }

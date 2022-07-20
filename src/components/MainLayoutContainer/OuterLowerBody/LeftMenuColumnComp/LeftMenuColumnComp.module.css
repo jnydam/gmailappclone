@@ -2,6 +2,7 @@
     display: flex;
     height: 100%;
     width: 15.5rem;
+    min-width: 15.5rem;
     background-color: lightgreen;
     flex-direction: column;
 }

@@ -1,10 +1,14 @@
 import React from 'react';
 
-const InboxHoriZDetailComp = (props) => {
+import styles from './InboxHorizDetailComp.module.css';
+
+const InboxHorizDetailComp = (props) => {
 
     return (<div className={styles.inboxHorizDetailCompContainer}>
-        <span>This is the inbox horiz detail comp</span>
+        <div className={styles.leftDividerContainer}>
+
+        </div>
     </div>)
 }
 
-export default InboxHoriZDetailComp;
+export default InboxHorizDetailComp;
