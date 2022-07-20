@@ -3,4 +3,25 @@
     min-height: 3.5rem;
     background-color: violet;
     width: 100%;
+    justify-content: space-between;
+}
+
+.leftDividerContainer {
+    display: flex;
+    height: 100%;
+    width: 45rem;
+    background-color: red;
+    align-items: center;
+}
+
+.rightDividerContainer {
+    display: flex;
+    height: 100%;
+    width: 20rem;
+    background-color: bisque;
+}
+
+.iconGraphicStyle {
+    display: flex;
+    height: 3rem;
 }
