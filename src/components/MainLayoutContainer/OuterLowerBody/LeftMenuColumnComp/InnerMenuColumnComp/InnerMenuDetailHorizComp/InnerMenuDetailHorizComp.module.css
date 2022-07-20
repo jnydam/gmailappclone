@@ -20,8 +20,17 @@
     width: 2.4rem;
     margin-left: 1rem;
     background-color: brown;
+    align-items: center;
+    justify-content: center;
 }
 
 .textInfoContainer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.localIconStyle {
+    display: flex;
+    height: 1.5rem;
 }
