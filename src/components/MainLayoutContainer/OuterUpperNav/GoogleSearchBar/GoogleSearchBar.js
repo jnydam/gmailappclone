@@ -13,7 +13,7 @@ const GoogleSearchBar = (props) => {
         </div>
         <input className={styles.searchMailInputStyle} placeholder='Search mail'></input>
         <div className={styles.filterIconImageContainer}>
-            <img style={{height: '2rem', width: '2rem'}} src={filterMailIconGraphic}></img>
+            <img style={{height: '1.7rem', width: '1.7rem'}} src={filterMailIconGraphic}></img>
         </div>
     </div>)
 }

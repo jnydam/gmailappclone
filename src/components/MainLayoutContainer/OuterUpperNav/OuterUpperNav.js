@@ -15,7 +15,7 @@ const OuterUpperNav = (props) => {
 
     return (<div className={styles.outerUpperNavContainer}>
         <div className={styles.leftDividerContainer}>
-            <img className={styles.iconGraphicStyle} src={leftSideMenuGraphic}>
+            <img style={{height: '1.6rem'}} className={styles.iconGraphicStyle} src={leftSideMenuGraphic}>
             </img>
             <img className={styles.iconGraphicStyle} src={mIconGraphic}>
             </img>
