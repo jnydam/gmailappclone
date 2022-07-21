@@ -22,7 +22,9 @@ const InboxHorizDetailComp = (props) => {
                 <img className={styles.leftSideIconStyle} src={yellowPromotionGraphic}>
                 </img>
             </div>
-            <span>{props.sender}</span>
+            <span style={{
+                marginLeft: '0.1rem'
+            }}>{props.sender}</span>
         </div>
         <div className={styles.middleDividerContainer}>
             <span>
@@ -32,7 +34,7 @@ const InboxHorizDetailComp = (props) => {
                 -
             </span>
             <span>
-                {props.description}
+                {props.description.substring(0, 100)}
             </span>
         </div>
         <div className={styles.rightDividerContainer}>

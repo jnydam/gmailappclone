@@ -2,5 +2,21 @@
     display: flex;
     height: 100%;
     width: 4rem;
-    background-color: brown;
+    background-color: orange;
+    flex-direction: column;
+}
+
+.rightIconContainer {
+    display: flex;
+    height: 2.7rem;
+    background-color: red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.rightMenuIconStyle {
+    display: flex;
+    height: 1.7rem;
 }

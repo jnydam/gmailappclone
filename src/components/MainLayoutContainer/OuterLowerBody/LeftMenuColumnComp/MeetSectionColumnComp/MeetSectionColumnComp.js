@@ -5,7 +5,9 @@ import styles from './MeetSectionColumnComp.module.css';
 const MeetSectionColumnComp = (props) => {
 
     return (<div className={styles.meetSectionColumnCompContainer}>
-        <span>This is the meet section column comp</span>
+        <div className={styles.meetTitleRowContainer}>
+
+        </div>
     </div>)
 }
 
