@@ -3,11 +3,30 @@
     flex: 3;
     width: 100%;
     background-color: aqua;
+    flex-direction: column;
 }
 
 .hangoutTitleRowContainer {
     display: flex;
-    height: 2rem;
+    min-height: 2rem;
     background-color: beige;
     width: 100%;
+}
+
+.sampleHangoutRowContainer {
+    display: flex;
+    min-height: 3rem;
+    background-color: lightcoral;
+    width: 100%;
+    align-items: center;
+}
+
+.bodyHangoutRowContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
