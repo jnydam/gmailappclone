@@ -27,15 +27,18 @@ const InboxHorizDetailComp = (props) => {
             }}>{props.sender}</span>
         </div>
         <div className={styles.middleDividerContainer}>
-            <span>
+
+            <span style={{
+                width: '100%',
+                // backgroundColor: 'purple',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis'
+            }}>
                 {props.subject}
+                    -
+                    {props.description.substring(0, 100)}
             </span>
-            <span>
-                -
-            </span>
-            <span>
-                {props.description.substring(0, 100)}
-            </span>
+
         </div>
         <div className={styles.rightDividerContainer}>
 

@@ -3,6 +3,8 @@
     z-index: 2;
     flex-direction: column;
     height: 100%;
+    min-width: 0;
+    overflow: hidden;
     /* background-color: lightgray; */
 
 }
