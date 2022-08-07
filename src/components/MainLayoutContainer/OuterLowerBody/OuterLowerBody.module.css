@@ -1,6 +1,6 @@
 .outerLowerBodyCompContainer {
     display: flex;
-    height: 100%;
+    height: calc(100% - 3.8rem);
     width: 100%;
     /* background-color: lightgreen; */
 }
