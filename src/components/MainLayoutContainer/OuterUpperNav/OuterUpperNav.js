@@ -20,7 +20,7 @@ const OuterUpperNav = (props) => {
             <img className={styles.iconGraphicStyle} src={mIconGraphic}>
             </img>
             <span style={{
-                fontSize: '1.6rem',
+                fontSize: '1.3rem',
                 marginLeft: '0.8rem'}}>Gmail</span>
             <GoogleSearchBar></GoogleSearchBar>
         </div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 import styles from './InboxHorizDetailComp.module.css';
 
-import greySquareGraphic from '../../../../../../assets/greysquareicon.png';
-import greyStarGraphic from '../../../../../../assets/highlightfirststar.png';
-import yellowPromotionGraphic from '../../../../../../assets/yellowpromotionicon.png';
+import greySquareGraphic from '../../../../../../assets/greysquare.png';
+import greyStarGraphic from '../../../../../../assets/greystar.png';
+import yellowPromotionGraphic from '../../../../../../assets/greyyellow.png';
 
 const InboxHorizDetailComp = (props) => {
 

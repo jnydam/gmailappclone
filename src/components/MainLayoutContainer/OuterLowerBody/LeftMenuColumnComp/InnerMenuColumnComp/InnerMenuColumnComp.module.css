@@ -2,7 +2,7 @@
     display: flex;
     flex: 4;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     overflow: scroll;
 }
 
@@ -19,5 +19,5 @@
     width: 100%;
     flex-direction: column;
     height: 30rem;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }

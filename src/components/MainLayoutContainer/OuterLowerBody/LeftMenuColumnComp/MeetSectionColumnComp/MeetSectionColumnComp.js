@@ -15,7 +15,7 @@ const MeetSectionColumnComp = (props) => {
         },
         {
             icon: joinMeetingGraphic,
-            text: 'Join Meeting'
+            text: 'Join a Meeting'
         }
     ]
 

@@ -10,7 +10,8 @@ const MiddleInboxDividerHorizComp = (props) => {
             <img className={styles.localIconStyle} src={props.iconImage}>
             </img>
         </div>
-        <span style={{color: props.mainColor}}>{props.labelText}</span>
+        <span style={{color: props.mainColor, 
+        fontSize: '0.75rem', fontWeight: 'bold'}}>{props.labelText}</span>
         <div 
         style={{
             backgroundColor: props.mainColor
