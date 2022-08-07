@@ -2,6 +2,8 @@
     display: flex;
     height: 75%;
     width: 44rem;
+    max-width: 44rem;
+    min-width: 0;
     /* border-style: none;
     outline-style: none; */
     border-radius: 0.3rem;
