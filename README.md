@@ -1,3 +1,7 @@
+Professional Portfolio: https://www.jnydam.com
+
+---------------------------------------------------
+
 # Gmail Clone
 
 This project is a clone of the Gmail web application created from scratch
